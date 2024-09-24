@@ -1,0 +1,33 @@
+/*In this challenge, we practice reading input from stdin and printing output to stdout./*
+
+/*TASK:
+Read 3 numbers from stdin and print their sum to stdout.*/
+
+/*INPUT FORMAT:
+One line that contains 3 space-separated integers: a, b, and c.*/
+
+/*OUTPUT FORMAT:
+Print the sum of the three numbers on a single line.*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  /*declare the following variable:*/
+    int a;
+    int b;
+    int c;
+
+  /* we want to use cin to read the input, 
+     We can do this with the following code:*/
+    cin >> a >> b >> c;
+
+  /* If we want to print these values to stdout, separated by a space, we write the following code:*/
+    cout << a + b + c << endl;
+    return 0;
+}
+
+/*EXPLANATION:
+The sum of the three numbers is 1+2+7=10.*/
+
